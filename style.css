@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 50px;
+}
+.my-name{
+    color:orange;
+}
+
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width:50%;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+.half-width img{
+    width: 80%;
+    
+}
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}  
+
+
+.hireme-button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 5%;
+}
+
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
