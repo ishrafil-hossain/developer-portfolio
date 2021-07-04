@@ -2,7 +2,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    padding: 0px;
 }
 h1{
     font-size: 50px;
@@ -22,7 +21,6 @@ h2{
 .half-width{
     width:50%;
     padding-left: 10%;
-    padding-right:10%;
 }
 
 .half-width img{
@@ -62,5 +60,20 @@ h2{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+#full-stack-eperience{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
 
